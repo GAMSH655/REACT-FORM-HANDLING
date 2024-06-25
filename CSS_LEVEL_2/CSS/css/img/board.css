@@ -1,0 +1,104 @@
+
+ 
+.secondcontainer .Range{
+     
+     margin-right: 15px;
+     background: lime;
+     width: 250px;
+     height: 7px;
+  
+    }
+
+    .secondcontainer .Range{
+         border-radius: 5px;
+         background-image: green;
+         background-size: 70% 100px;
+         box-shadow: 0 0 2px rgba(161, 2, 2, 0.919);
+         background-repeat: no-repeat;
+         margin: 10px;
+
+    }
+   
+   .secondcontainer .Range::-webkit-slider-thumb{
+         -webkit-appearance: none;
+         height: 20px;
+         width: 20px;
+         border-radius: 50%;
+         background: #ff4500;
+         cursor: ew-resize;
+         box-shadow: 0 0 2px #555;
+       transition:background .3s ease-in-out ;
+        cursor: pointer;
+        
+    }
+   
+   .secondcontainer .Range::-webkit-slider-runnable-track{
+         -webkit-appearance: none;
+         box-shadow: none;
+         border: none;
+         background: transparent;
+   
+         
+   }
+   
+   
+   
+
+
+.container{
+    color: whitesmoke;
+    background-color: rgba(30, 34, 23, 0.676) ;
+    border-bottom:lime 10px solid ;
+    width: 270px;
+    border-radius: 10px;
+
+}
+.secondcontainer{
+    background-color: rgba(30, 34, 23, 0.676) ;
+   width: 270px;
+   border-radius: 30px;
+}
+ 
+h3{
+     padding: 20px;
+     color: whitesmoke ;
+}
+ 
+.h3{
+     color:lime;
+     margin-left: 60px;
+}
+.secondcontainer input {
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-width:0 px ;
+    padding: 15px;
+ }
+
+ BUTTON{
+      
+    margin: 10px;
+    padding:10px;
+    
+    background:lime;
+    width:   230px ;
+    border-radius: 30px;
+    
+ }
+Button:hover{
+     background-color: black;
+     color: yellowgreen;
+}
+
+  .secondcontainer input {
+     color: whitesmoke solid 10px;
+     background-color: whitesmoke;
+     background: black;
+     border-radius: 30px;
+     
+}
+
+.checkbox{
+     color: whitesmoke;
+}
